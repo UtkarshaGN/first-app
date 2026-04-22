@@ -1,0 +1,34 @@
+.productSection{
+background-color: aqua;
+padding:   50px 0px;
+}
+.productSection h2{
+    text-align: center;
+}
+
+.productMid{
+    max-width: 1170px;
+    margin: auto;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 30px;
+    
+
+}
+
+.productItems{
+    background: white;
+    width: 100%;
+}
+.productItems img{
+    width: 100%;
+}
+.productItems h3{
+    text-align: center;
+    padding: 8px 20px;
+}
+.productItems p{
+    text-align: justify;
+    padding: 10px 10px;
+}
